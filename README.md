@@ -24,7 +24,7 @@ Check out the live demo of the project here: [Vending Machine App](https://zingy
 
 ```plaintext
 ├── public
-│   └── index.html         # Entry point of the app
+│   └── vite.svg         # Entry point of the app
 ├── src
 │   ├── assets             # Image assets for products
 │   ├── components

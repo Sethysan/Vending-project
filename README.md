@@ -33,7 +33,7 @@ Check out the live demo of the project here: [Vending Machine App](https://zingy
 │   │   ├── ItemComponent.vue   # Component to display individual product
 │   │   ├── ProductsComponent.vue # Component to display all products
 │   ├── store
-│   │   └── index.js         # Vuex store for state management
+│   │   └── index.js         # VueX store for state management
 │   ├── App.vue              # Main Vue app component
 │   └── main.js              # App entry point and Vue initialization
 ├── vite.config.js           # Vite configuration file
@@ -45,27 +45,26 @@ How to Run the Project
 Clone the repository:
 
 bash
-Copy code
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
 Install dependencies:
 
 bash
-
 npm install
+
 Run the app:
 
 bash
-
 npm run dev
+
 Build for production:
 
 bash
-
 npm run build
 
-Vuex Store
-The state of the application is managed using Vuex, with the following key components:
+VueX Store
+The state of the application is managed using VueX, with the following key components:
 
 State:
 funds: The amount of money the user has.
